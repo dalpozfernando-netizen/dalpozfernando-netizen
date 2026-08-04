@@ -1,0 +1,68 @@
+if (numero > 0) {
+console.log(o numero é positivo.)
+else if (numero<0)
+console.log (o numero é negativo)
+else{
+    console.log(o numero é igual a zero)
+
+let num=number(prompt('Digite um numero :'))
+
+if (num % 2 == 0)   
+}else{
+
+            console.log 
+
+
+
+
+
+
+
+
+
+
+
+
+let idade =nuber(prompt('digite a idade '))
+
+            if (idade <=12)){  
+                console.log('criança')
+            
+            }else if(idade<=17) {
+                console.log('adolecente')
+                
+            }else if (idade <= 59){
+                console.log('adulto')
+            }else{
+                console.log('idoso')
+
+
+
+
+
+                let temperatura = number (prompt('digite a temperatura em celsius'))
+
+                IFF (temperatura <18) {
+                    console.log('frio')
+                }else if (temperatura <= 26){
+                    console.log('agradavel')
+                }else{
+                    console.log('quente')
+
+
+
+
+
+                    let faltas =number(prompt('digite as faltas'))
+                    let nota =number(prompt('digite a nota '))
+
+
+                    if (nota >= 60 && faltas <= %){
+                        console.log('aprovado')
+
+                    }else {
+                        console.log{'reeprovado'}
+
+
+
+                        
