@@ -65,4 +65,46 @@ let idade =nuber(prompt('digite a idade '))
 
 
 
+                    let letra =prompt('digite a letra:' ) 
+                      console.log ('vogal') 
+                    ]}}else{
+                        console.log('consoantes')
+
+
+
+
+
+
+                        let numero = int(prompt('digito um numero'))
+
+                         if (numero % 2 ===0 && numero % 3 ===0){
+                            console.log('o numero e multiplo de 2 e 3')
+                         } else if (numero % 2 === 0){
+                            console.log('o numero e multiplo de 2')
+                         } else if (numero % 3 === 0){
+                            console.log('o numero e multiplo de 3')
+                         }else {
+                            console.log('o número nao e multiplo de 2 ou 3')
+                         }
+
+
+
+
+
+
+
+
+
+
+
+                         let ano = number(prompt('digite um ano'))  
                         
+                        
+                         if (ano % 400 == 0){
+                            console.log('o ano $ {ano} é bissesto')
+                         }else if (ano % 100 == 0){
+                            console.log(' O ano ${ano}nao é bissesto')
+                         }else if (ano %4 == 0) {
+                            console.log('o ano${ano} e bissesto')
+                         }else{
+                            console.log
