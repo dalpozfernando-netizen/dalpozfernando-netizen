@@ -1,16 +1,15 @@
-if (numero > 0) {
-console.log(o numero é positivo.)
+if (numero > 0) 
+console.log('o numero é positivo.')
 else if (numero<0)
-console.log (o numero é negativo)
+console.log ('o numero é negativo')
 else{
-    console.log(o numero é igual a zero)
+    console.log('o numero é igual a zero')
 
 let num=number(prompt('Digite um numero :'))
 
 if (num % 2 == 0)   
-}else{
+} else {
 
-            console.log 
 
 
 
@@ -25,7 +24,7 @@ if (num % 2 == 0)
 
 let idade =nuber(prompt('digite a idade '))
 
-            if (idade <=12)){  
+            if (idade <=12){  
                 console.log('criança')
             
             }else if(idade<=17) {
@@ -33,7 +32,7 @@ let idade =nuber(prompt('digite a idade '))
                 
             }else if (idade <= 59){
                 console.log('adulto')
-            }else{
+            } else {
                 console.log('idoso')
 
 
@@ -42,11 +41,11 @@ let idade =nuber(prompt('digite a idade '))
 
                 let temperatura = number (prompt('digite a temperatura em celsius'))
 
-                IFF (temperatura <18) {
+                IFF (temperatura <18) 
                     console.log('frio')
-                }else if (temperatura <= 26){
+                }else if (temperatura <= 26)
                     console.log('agradavel')
-                }else{
+                } else{
                     console.log('quente')
 
 
@@ -107,4 +106,4 @@ let idade =nuber(prompt('digite a idade '))
                          }else if (ano %4 == 0) {
                             console.log('o ano${ano} e bissesto')
                          }else{
-                            console.log
+                            
