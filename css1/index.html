@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog Simples</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Layout principal usando CSS Grid */
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "nav nav"
+        "main sidebar"
+        "footer footer";
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto auto 1fr auto;
+      min-height: 200vh;
+      max-width: 1200px;
+      margin: 0 auto;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Estilos das Seções */
+    header {
+      grid-area: header;
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    nav {
+      grid-area: nav;
+      background-color: #34495e;
+      border-radius: 8px;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      grid-area: main;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    aside {
+      grid-area: sidebar;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      grid-area: footer;
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    /* Responsividade para telas menores */
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-areas:
+          "header"
+          "nav"
+          "main"
+          "sidebar"
+          "footer";
+        grid-template-columns: 1fr;
+      }
+      
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="grid-container">
+    <header>
+      <h1>Meu Blog Incrivel</h1>
+      <p>Explorando o mundo da tecnologia e programação</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Categorias</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Como Dominar o CSS Grid em 2026</h2>
+    <br
+      <p>29 de Junho de 2026</p>
+      <br>
+      <p>Este é o conteúdo principal do seu blog. O CSS Grid permite alinhar esta parte com muito espaço e organização ao lado da barra lateral.</p>
+    </main>
+
+    <aside>
+      <h3>Sobre o Autor</h3>
+      <p> João Silva é um desenvolvedor web há mais de  10 anos especialista e tecnologia frontend.</p>
+    </aside>
+
+    <footer>
+      <p>&copy; 2026 Meu Blog. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+</body>
+</html
